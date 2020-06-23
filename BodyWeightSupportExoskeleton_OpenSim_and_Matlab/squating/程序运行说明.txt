@@ -1,0 +1,21 @@
+1. 首先要配置好Matlab环境，这样才能调用OpenSim中的API等，配置方法详见OpenSim的官方说明文档。
+
+2. 文件夹ExoGeometry1中存的是外骨骼各个部件的几何外形，其中并不包括部件的质量、惯性、质心等参数，这些参数在相关的.txt中可以找到；
+
+文件夹Geometry中存的是人体模型的各个部件，其中包括了部件的质量、惯性和质心参数等；
+
+文件夹SimulationOutputData是之前仿真存储的一波数据结果。
+
+主要文件：
+Main.m : 主运行函数，如果环境配置好了，直接运行该脚本文件即可。其中包括了人机外骨骼系统的搭建；
+
+Simulate3.m : 仿真入口；
+
+setNewState3.m : 给定人的运动；
+
+ExciteCalculate_Stance.m : 控制算法运行，得到控制量大小；
+
+FCMAC.m : 模糊小脑模型控制器；
+
+AddPoint.m : 给关节驱动器输送控制量。
+

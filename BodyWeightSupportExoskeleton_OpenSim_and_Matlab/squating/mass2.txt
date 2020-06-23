@@ -1,0 +1,58 @@
+0
+0
+0
+0
+2.4         % r_shank
+1e-5
+2.3         % r_pelvis
+0
+0
+0
+1e-5
+0
+2.0         % l_thigh_trans
+0
+0
+0
+0
+0
+1e-5
+0
+0
+0
+0
+0
+0
+1e-5        % l_thigh_real
+0.8         % l_foot
+0
+0
+0
+0
+0
+0
+2.4         % l_shank
+1e-5
+2.3         % l_pelvis
+0
+0
+0
+1e-5
+0
+2.0        % r_thigh_trans
+0
+0
+0
+0
+0
+1e-5
+0
+0
+0
+0
+0
+0
+1e-5         % r_thigh_real
+0.8         % r_foot
+0
+0
