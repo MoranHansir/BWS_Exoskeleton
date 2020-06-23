@@ -9,9 +9,9 @@ Step 2: Open the Matlab, run Main.m.
 
 Tips:
 
-1) Folder ExoGeometry1 saves the geometries of exoskeleton parts.
+1) Folder ExoGeometry1 holds the geometries of exoskeleton parts.
 
-2) Folder Geometry saves the parts of human model.
+2) Folder Geometry holds the parts of human model.
 
 3) The human-robot model is built in Main.m.
 
